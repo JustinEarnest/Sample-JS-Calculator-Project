@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+<Div class="Calculator" >
+    <input type="text" placeholder="0" id="inputbox">
+    
+    <Div>
+        <button  onclick="btn_click(7)">7</button>
+        <button  onclick="btn_click(8)">8</button>
+        <button  onclick="btn_click(9)">9</button>
+        <button class="operator"onclick="btn_click('+')">+</button>
+     </Div>
+
+    <Div>
+        <button onclick="btn_click(4)">4</button>
+        <button onclick="btn_click(5)">5</button>
+        <button onclick="btn_click(6)">6</button>
+        <button  class="operator" onclick="btn_click('-')">-</button>
+    </Div>
+
+    <Div>
+        <button onclick="btn_click(1)">1</button>
+        <button onclick="btn_click(2)">2</button>
+        <button onclick="btn_click(3)">3</button>
+        <button class="operator" onclick="btn_click('*')">×</button>
+    </Div>
+
+    <Div>
+        <button id="Equal" onclick="btn_clear()">AC</button>
+        <button onclick="btn_click(0)">0</button>
+        <button id="Equal" onclick="btn_Equal()">=</button>
+        <button class="operator"onclick="btn_click('/')">÷</button>
+    </Div> 
+</Div>
+<script src="script.js"></script>
+</body>
+</html>
